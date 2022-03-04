@@ -16,8 +16,7 @@ void main () {
   // To measure the length of a variable, we use $ with curly braces, and variableName.length 
   print("The length of the variable is ${a.length}");
 
-  
-  var num1 = 27;
+    var num1 = 27;
   var num2 = 86;
   var num3 = 113;
    
