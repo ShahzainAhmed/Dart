@@ -450,7 +450,6 @@ void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num
 ### Positional Parameters
 **Example:**
 ```
-// Optional Positional Parameters in Functions - 5th March 2022
 void main() {
   printCities("Karachi", "Hyderabad", "Islamabad");
   printCountries("Pakistan", "Dubai");
@@ -463,6 +462,7 @@ void printCities(String name1, String name2, String name3) {
 }
 
 void printCountries(String name1, String name2, [name3]) { 
+// square brackets are used to 
  
   print("Name 1 is: $name1");
   print("Name 1 is: $name2");
@@ -480,5 +480,34 @@ Name 3 is: null
 ```
 ### Named Parameters
 **These are used to prevent errors when there are large number of parameters.**
+**Example**
+```
+// It is used to prevent errors when there are large number of parameters
 
+/* named parameters advantage is that, the height value will go to height,
+no matter where the height value is placed, but since it's an named parameter,
+it will take itself height. */
+
+void main() {
+  findVolume(86, breadth: 27, height: 113);
+  // height: 113 & breadth: 27 are named parameters
+}
+
+void findVolume(int length, {height, breadth}) {
+  /* notice how I have replaced height with breadth in curly braces? but it will still work properly because in Named parameters, 
+  height will go to height, and breadth will go to breadth itself. */
+
+  // enclosing the height in curly braces, is considered as named parameter
+  print("The length is $length");
+  print("The breadth is $breadth");
+  print("The height is $height");
+  print("The volume is ${length * breadth * height}");
+}
+
+Output: 
+The length is 86
+The breadth is 27
+The height is 113
+The volume is 262386
+```
 
