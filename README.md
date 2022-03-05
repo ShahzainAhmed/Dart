@@ -355,9 +355,13 @@ return num1 + num2;
 }
 ```
 
-**If function doesn't return any value, we use void**
+**If function doesn't return any value, we use void as datatype**
 ```
-int sum(int num1, int num2) {
-return num1 + num2; 
+void sum(int num1, int num2) {
+print (num1 + num2); 
 }
 ```
+### Properties of Functions:
+* Functions in dart are objects.
+* All functions in dart returns a value. (if no value specified, the function returns null)
+* Specifying return type is optional but is recommended for code convention.
