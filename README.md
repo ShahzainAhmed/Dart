@@ -415,7 +415,7 @@ int perimeter = findPerimeter(86,10);
 
 int findPerimeter (int length, int breadth){
   int perimeter = 2 * (length+breadth);
-  return perimeter; 
+  return perimeter; // if not specifying a return type 'return', then it will give null as a result.
 }
 
 // Output:
