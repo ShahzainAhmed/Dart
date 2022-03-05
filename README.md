@@ -13,6 +13,7 @@
 * Short Hand (Fat Arrow =>) 
 * Optional Parameters in Functions (Positional, Named, Default)
 * Exception Handling
+* Custom Exception
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -595,4 +596,31 @@ void main() {
 Output: 
 Exception thrown is: IntegerDivisionByZeroException
 I am finally clause, which will always be executed
+```
+## Custom Exception
+**Example:**
+```
+// Custom Exceptions - 5th March 2022
+void main() {
+  try {
+    withDrawException(1000);
+  } catch (e) {
+    print(e.errorMessage());
+  }
+}
+
+class withDrawException implements Exception {
+  String errorMessage() {
+    return 'Failed to Withdraw';
+  }
+}
+
+void withDraw(var amount) {
+  var balance = 500;
+  if (amount > balance) {
+    throw new withDrawException();
+  }
+}
+Output: 
+Failed to Withdraw
 ```
