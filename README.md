@@ -282,7 +282,7 @@ void main() {
 ```
 
 ## Continue Statement
-**Used to skip a statement.**
+**Used to skip a statement.**  
 **Example: Skipping inner loop using continue statement**
 ```
 void main() {
