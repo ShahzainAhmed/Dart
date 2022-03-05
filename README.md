@@ -235,3 +235,22 @@ var s = 1;
 
 // Output: 1 2 3 4 5 6 7 8 9 10
 ```
+
+## Nested Loop
+**Loop inside a loop.**
+
+```
+void main() {
+ mOuterLoop: for (int i = 1; i <= 4; i++) {
+    mInnerLoop: for (int j = 1; j <= 4; j++) {
+      print("$i $j");
+
+      if (i == 3 && j == 3) {
+        break; // also try break mOuterLoop to break the outer loop
+      }
+    }
+  }
+}
+```
+
+
