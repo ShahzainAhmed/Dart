@@ -348,7 +348,14 @@ void main() {
 ```
 
 ## Functions
-### Syntax
+### Syntax:
+```
+int sum(int num1, int num2) {
+return num1 + num2; 
+}
+```
+
+**If function doesn't return any value, we use void**
 ```
 int sum(int num1, int num2) {
 return num1 + num2; 
