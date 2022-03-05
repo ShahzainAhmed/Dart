@@ -23,7 +23,7 @@ void main() {
   // but it's giving an error
   class Student {
     final semester = "7th Semester";
-    const batch = 18;
+    const batch = 18; // to use it properly, we will use static keyword with const, like: static const batch = 18;
   }
     
 }
