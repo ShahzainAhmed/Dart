@@ -10,7 +10,7 @@
 * Switch Statement
 * Loops
 * Functions
-* 
+* Short Hand (Fat Arrow =>) 
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -428,3 +428,14 @@ int findPerimeter (int length, int breadth){
 // Output:
 // Perimeter is: 192
 ```
+
+## Short Hand (Fat Arrow =>)
+### Syntax with Example:
+```
+void main() {
+    sum(86,10);
+}
+
+void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num2}");
+```
+
