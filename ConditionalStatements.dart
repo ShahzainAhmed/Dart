@@ -26,3 +26,7 @@ void main() {
     print("Shahzain Ahmed will never play this game again");
   }
 }
+
+// Output:
+// I win!
+// Shahzain Ahmed wins!
