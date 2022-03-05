@@ -155,3 +155,47 @@ void main() {
 
 // Output: $2
 ```
+
+## Loops
+**Loop statements are used to execute the block of code repeatedly for a specified number of times or until it meets a specified condition. These are very useful to iterate over collection/list of items or to perform a task for multiple times.** 
+### In Dart, we have following loop statements available:
+- for loop
+- for..in loop
+- while loop
+- do while loop
+
+## for Loop
+**The for loop is used when we want to execute block of code known times. The for loop takes a variable as iterator and assign it with an initial value and iterate through the loop body as long as the test condition is true.**
+### Syntax:
+```
+for (initialization; Condition; incr/decr){
+	// loop body
+}
+```
+
+## for..in Loop
+**The for in loop takes an expression or object as iterator, and iterate through the elements one at a time in sequence. The value of the element is bound to var, which is valid and available for the loop body. Once the loop statements are executed current iteration, the next element is fetched from the iterator, and we loop another time. When there are no more elements in iterator, the for loop is ended.**
+### Syntax:
+```
+for (var in expression) {
+  // Statement(s)
+}
+```
+
+## while Loop
+**The while loop will execute a block of statement as long as the test condition is true.**
+### Syntax:
+```
+while(condition)
+{
+    // loop body
+}
+```
+
+## do while Loop
+**The do while loop first executes the loop statements and then test the condition for next iteration and executes next only if condition is true.**
+```
+do {
+    // loop body
+} while(condition);
+```
