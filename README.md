@@ -5,7 +5,7 @@
 * String Literals
 * final and const keywords
 
-## Final and Const Keywords
+## final and const Keywords
 If you never want to change a value, then use final and const keywords.
 * final varName = "Shahzain";
 * const PI = 3.14;
@@ -29,7 +29,7 @@ else {
 }
 ```
 
-Example:
+**Example:**
 ``` 
 var myNum = 86;
 if (myNum % 86 == 0) {
@@ -51,7 +51,7 @@ else {
 // statements will execute if all the conditions are false
 }
 ```
-Example:
+**Example:**
 ``` 
 var myNum = 86;
 if (myNum < 100) {
