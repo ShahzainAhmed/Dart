@@ -208,6 +208,15 @@ while(condition)
     // loop body
 }
 ```
+**Example:**
+```
+var i = 1;
+  while (i<=10) {
+    print(i);
+    i++;
+  }
+// Output: 1 2 3 4 5 6 7 8 9 10
+```
 
 ## do while Loop
 **The do while loop first executes the loop statements and then test the condition for next iteration and executes next only if condition is true.**
@@ -215,4 +224,14 @@ while(condition)
 do {
     // loop body
 } while(condition);
+```
+**Example:**
+```
+var s = 1;
+  do {
+    print (s);
+    s++;
+  } while(s<=10);
+
+// Output: 1 2 3 4 5 6 7 8 9 10
 ```
