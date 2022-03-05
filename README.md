@@ -11,7 +11,7 @@
 * Loops
 * Functions
 * Short Hand (Fat Arrow =>) 
-* Optional Positional Parameters in Functions
+* Optional Parameters in Functions (Positional, Named, Default)
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -442,7 +442,7 @@ void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num
 // Output: The sum of 86 and 10 is: 96 
 ```
 
-## Optional Positional Parameters in Functions
+## Optional Parameters in Functions
 1. Positional Parameters
 2. Named Parameters
 3. Default Parameters
@@ -511,3 +511,28 @@ The height is 113
 The volume is 262386
 ```
 
+## Default Parameters
+**These are used to give default values to variables, if you don't pass them yourself in parameters of main method**  
+**Example**
+```
+void main() {
+  findVolume(2);
+}
+
+void findVolume(int length, {breadth = 2, height = 5}) {
+  /* these values of breadth and height will be used by default,
+  if you haven't passed the values in main method of findVolume()*/
+  print("Length is $length");
+  print("Breadth is $breadth");
+  print("Height is $height");
+
+  print("The volume is: ${length * breadth * height}");
+}
+
+/* Output: 
+Length is 2
+Breadth is 2
+Height is 5
+The volume is: 20
+ */
+ ```
