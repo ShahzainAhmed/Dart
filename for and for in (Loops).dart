@@ -8,6 +8,13 @@ void main() {
     print(i);
   }
   
+  // for loop - Even Numbers condition
+  for (var s = 1; s <= 10; s++) {
+    if (s % 2 == 0) {
+      print(s);
+    }
+  }
+
   // for in loop
   List colors = ['Red', 'Green', 'Blue'];
   for (String storeColors in colors) {
