@@ -281,4 +281,26 @@ void main() {
 // 4 4
 ```
 
+## Continue Statement
+**Used to skip a statement.**
+```
+void main() {
+  for (int i = 1; i <= 10; i++) {
+    if (i == 5) {
+      continue; // if i==5, it will skip 5, and print the rest of the numbers
+    }
+    print(i);
+  }
+  print("\n"); // drops a line
+
+  for (int j = 1; j <= 10; j++) {
+    if (j % 2 == 0) {
+      continue; // this condition will skip the even numbers using (continue keyword),
+      // and print all the odd numbers instead
+    }
+    print(j);
+  }
+}
+
+```
 
