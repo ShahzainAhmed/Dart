@@ -447,6 +447,7 @@ void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num
 2. Named Parameters
 3. Default Parameters
 
+### Positional Parameters
 **Example:**
 ```
 // Optional Positional Parameters in Functions - 5th March 2022
@@ -461,12 +462,23 @@ void printCities(String name1, String name2, String name3) {
   print("Name 3 is: $name3");
 }
 
-void printCountries(String name1, String name2, [String name3]) {
-  // Square brackets with String name3 is giving error because of the string datatype.
+void printCountries(String name1, String name2, [name3]) { 
+ 
   print("Name 1 is: $name1");
   print("Name 1 is: $name2");
   print("Name 1 is: $name3");
 }
 
+Output: 
+Name 1 is: Karachi
+Name 2 is: Hyderabad
+Name 3 is: Islamabad  
+
+Name 1 is: Pakistan
+Name 2 is: Dubai
+Name 3 is: null
 ```
+### Named Parameters
+**These are used to prevent errors when there are large number of parameters.**
+
 
