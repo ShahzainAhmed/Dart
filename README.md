@@ -77,3 +77,49 @@ expr1 ?? expr2
 // if expr1 is non-null, then evaluate expr1 and return its value
 // otherwise evaluate expr2 and return its value
 ```
+## Switch Statement:
+### It is only applicable for 'int' and 'String'
+### Syntax:
+```
+switch (variable) {
+case 1:
+        // Statements to be executed
+        break;
+case 2:
+        // Statements to be executed
+        break;        
+default:
+        // Statements to be executed
+}
+```
+
+**Example:**
+```
+// Switch Statement - 5th March 2022
+// It is only applicable on 'int' and 'String'
+
+void main() {
+  
+  var fruit = "Apple";
+  
+  switch (fruit) {
+    case "Apple": 
+      print("Apple is \$2"); // if we don't use \ backslash with $2, then it will be considered as a variable, and will cause an error 
+      break;
+      
+    case "Orange":
+      print("Orange is \$4");
+      break;
+      
+    case "Banana":
+      print("Banana is \$6");
+      break;
+      
+      default:
+      print("The market is closed today");
+  }
+
+}
+
+// Output: $2
+```
