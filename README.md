@@ -19,7 +19,7 @@ If you never want to change a value, then use final and const keywords.
 - You cannot define a const inside a class. But you can define it in a function.
 
 ## Conditional Statements:
-### if else
+### 1. if else
 ```
 if (boolean expression) {
 // statements will execute if the boolean expression is true
@@ -39,7 +39,7 @@ else {
 print("$myNum is an Odd Number")
 };
 ```
-### if else if ladder
+### 2. if else if ladder
 ```
 if (boolean expression) {
 // statements will execute if the boolean expression is true
@@ -63,4 +63,17 @@ if (myNum < 100) {
   } else {
     print("Shahzain Ahmed will never play this game again");
   }
+```
+## Conditional Expressions:
+### 1. condition ? expr1 : expr2
+```
+condition ? expr1 : expr2
+// if the condition is true, then evaluate expr1 and return its value
+// otherwise evaluate expr2 and return its value
+```
+### 2. expr1 ?? expr2
+```
+expr1 ?? expr2
+// if expr1 is non-null, then evaluate expr1 and return its value
+// otherwise evaluate expr2 and return its value
 ```
