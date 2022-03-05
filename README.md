@@ -283,6 +283,7 @@ void main() {
 
 ## Continue Statement
 **Used to skip a statement.**
+**Example: Skipping inner loop using continue statement**
 ```
 void main() {
   for (int i = 1; i <= 10; i++) {
@@ -291,9 +292,23 @@ void main() {
     }
     print(i);
   }
-  print("\n"); // drops a line
+}
 
-  for (int j = 1; j <= 10; j++) {
+// Output: 
+// 1
+// 2
+// 3
+// 4
+// 6
+// 7
+// 8
+// 9
+// 10
+```
+**Example: Printing Odd numbers using continue statement**
+```
+void main() {
+for (int j = 1; j <= 10; j++) {
     if (j % 2 == 0) {
       continue; // this condition will skip the even numbers using (continue keyword),
       // and print all the odd numbers instead
@@ -302,5 +317,30 @@ void main() {
   }
 }
 
+// Output:
+// 1
+// 3
+// 5
+// 7
+// 9
 ```
+**Example: Skipping outer loop using continue statement**
+void main() {
+  mOuterLoop: for (int i = 1; i<=3; i++){
+    mInnerLoop: for (int j = 1; j<=3; j++){
+      if (i==2 && j==2){
+        continue mOuterLoop;
+      }
+      print("$i $j");
+    }
+  }
+}
 
+// Output:
+// 1 1
+// 1 2
+// 1 3
+// 2 1
+// 3 1
+// 3 2
+// 3 3
