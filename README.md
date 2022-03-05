@@ -36,7 +36,31 @@ if (myNum % 86 == 0) {
 print("$myNum is an Even Number");
 }
 else {
-print("$myNum is an Odd Number"};
+print("$myNum is an Odd Number")
+};
 ```
 ### if else if ladder
-
+```
+if (boolean expression) {
+// statements will execute if the boolean expression is true
+}
+else if (boolean expression) {
+// statements will execute if the boolean expression is true
+}
+else {
+// statements will execute if all the conditions are false
+}
+```
+Example:
+``` 
+var myNum = 86;
+if (myNum < 100) {
+    print("Shahzain Ahmed wins!");
+  } else if (myNum > 100) {
+    print("Shahzain Ahmed loses!");
+  } else if (myNum == 0) {
+    print("Shahzain Ahmed is not in the game");
+  } else {
+    print("Shahzain Ahmed will never play this game again");
+  }
+```
