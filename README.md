@@ -325,6 +325,7 @@ for (int j = 1; j <= 10; j++) {
 // 9
 ```
 **Example: Skipping outer loop using continue statement**
+```
 void main() {
   mOuterLoop: for (int i = 1; i<=3; i++){
     mInnerLoop: for (int j = 1; j<=3; j++){
@@ -344,3 +345,5 @@ void main() {
 // 3 1
 // 3 2
 // 3 3
+```
+
