@@ -172,6 +172,14 @@ for (initialization; Condition; incr/decr){
 	// loop body
 }
 ```
+**Example:**
+```
+for (var i = 1; i <= 10; i++ ) {
+    print(i);
+  }
+
+// Output: 1 2 3 4 5 6 7 8 9 10
+```
 
 ## for..in Loop
 **The for in loop takes an expression or object as iterator, and iterate through the elements one at a time in sequence. The value of the element is bound to var, which is valid and available for the loop body. Once the loop statements are executed current iteration, the next element is fetched from the iterator, and we loop another time. When there are no more elements in iterator, the for loop is ended.**
@@ -180,6 +188,15 @@ for (initialization; Condition; incr/decr){
 for (var in expression) {
   // Statement(s)
 }
+```
+**Example:**
+```
+List colors = ['Red', 'Green', 'Blue'];
+  for (String storeColors in colors) {
+    print(storeColors);
+  }
+  
+// Output: Red Green Blue 
 ```
 
 ## while Loop
