@@ -7,6 +7,9 @@ void main () {
   var a = "Shahzain Ahmed" " 86";
   print (a);
   
+  // But if we are printing a string within single quotes, then;
+  print('It\'\s Shahzain Ahmed');
+  
   // String Interpolation:
   print("My name is: " + a); // but using + sign in dart is considered a bad practice
   
