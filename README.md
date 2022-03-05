@@ -479,7 +479,7 @@ Name 2 is: Dubai
 Name 3 is: null
 ```
 ### Named Parameters
-**These are used to prevent errors when there are large number of parameters.**
+**These are used to prevent errors when there are large number of parameters.**  
 **Example**
 ```
 // It is used to prevent errors when there are large number of parameters
@@ -511,7 +511,7 @@ The height is 113
 The volume is 262386
 ```
 
-## Default Parameters
+### Default Parameters
 **These are used to give default values to variables, if you don't pass them yourself in parameters of main method**  
 **Example**
 ```
