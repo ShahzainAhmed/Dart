@@ -239,6 +239,17 @@ var s = 1;
 ## Nested Loop
 **Loop inside a loop.**
 
+
+```
+void main() {
+  for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= 4; j++) {
+      print("$i $j");
+    }
+  }
+}
+```
+**Example:**
 ```
 void main() {
  mOuterLoop: for (int i = 1; i <= 4; i++) {
