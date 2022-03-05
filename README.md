@@ -1,9 +1,16 @@
 # Learning Dart 
 ## Started on 4th March 2022
+# Topics Covered
 * Hello World
 * Variables
 * String Literals
 * final and const keywords
+* Conditional Statements
+* Conditional Expressions
+* Switch Statement
+* Loops
+* Functions
+* 
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
