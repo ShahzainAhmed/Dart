@@ -365,3 +365,20 @@ print (num1 + num2);
 * Functions in dart are objects.
 * All functions in dart returns a value. (if no value specified, the function returns null)
 * Specifying return type is optional but is recommended for code convention.
+
+**Example:**
+```
+void main() {
+  sum(); // calling the sum() function in main method
+}
+
+
+// Creating a function named sum()
+void sum() {
+  int num1 = 86;
+  int num2 = 10;
+  
+  int sum = num1 + num2;
+  print("The sum of $num1 and $num2 is: ${num1+num2}");
+}
+```
