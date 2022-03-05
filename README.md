@@ -366,18 +366,16 @@ print (num1 + num2);
 * All functions in dart returns a value. (if no value specified, the function returns null)
 * Specifying return type is optional but is recommended for code convention.
 
-**Example:**
+**Example: Creating a function called sum(), and seperately declaring and initializing variables inside the sum() function**
 ```
 void main() {
   sum(); // calling the sum() function in main method
 }
 
-
 // Creating a function named sum()
 void main() {
   sum(); // calling the sum() function in main method
 }
-
 
 // Creating a function named sum()
 void sum() {
@@ -390,4 +388,36 @@ void sum() {
 
 // Output:
 // The sum of 86 and 10 is: 96
+```
+
+**Example: Creating a function called sum(), and declaring variables inside the sum() function, and passing the values as parameters when calling the function in main method**
+```
+void main() { // main method
+  sum(86,10);
+}
+
+void sum(int num1, int num2) { // user defined sum function
+  int result = num1 + num2;
+  print("The sum of $num1 and $num2 is $result");
+}
+
+// Output:
+// The sum of 86 and 10 is 96
+```
+
+**Example: Creating a function called findPerimeter(), this time we are not using void, but int, and we are returning the perimeter**
+
+```
+void main(){
+int perimeter = findPerimeter(86,10);
+  print("Perimeter is: $perimeter");
+}
+
+int findPerimeter (int length, int breadth){
+  int perimeter = 2 * (length+breadth);
+  return perimeter; 
+}
+
+// Output:
+// Perimeter is: 192
 ```
