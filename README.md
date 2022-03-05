@@ -11,6 +11,7 @@
 * Loops
 * Functions
 * Short Hand (Fat Arrow =>) 
+* Optional Positional Parameters in Functions
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -437,16 +438,35 @@ void main() {
 }
 
 void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num2}");
+
+// Output: The sum of 86 and 10 is: 96 
 ```
 
-### Example 2:
+## Optional Positional Parameters in Functions
+1. Positional Parameters
+2. Named Parameters
+3. Default Parameters
+
+**Example:**
 ```
+// Optional Positional Parameters in Functions - 5th March 2022
 void main() {
-    int perimeter = findPerimeter(86,10);
-  print ("Perimeter is $perimeter");
+  printCities("Karachi", "Hyderabad", "Islamabad");
+  printCountries("Pakistan", "Dubai");
 }
 
-int findPerimeter(int length, int breadth) => 2 * (length + breadth);
-// Output: 
-Perimeter is 192
+void printCities(String name1, String name2, String name3) {
+  print("Name 1 is: $name1");
+  print("Name 2 is: $name2");
+  print("Name 3 is: $name3");
+}
+
+void printCountries(String name1, String name2, [String name3]) {
+  // Square brackets with String name3 is giving error because of the string datatype.
+  print("Name 1 is: $name1");
+  print("Name 1 is: $name2");
+  print("Name 1 is: $name3");
+}
+
 ```
+
