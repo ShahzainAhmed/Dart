@@ -19,11 +19,12 @@ void main() {
   //   const myNewName = "Shahzain";
   //   print(myNewName);
   
+   
+}
+
   // using final and const keywords within a class
-  // but it's giving an error
+
   class Student {
     final semester = "7th Semester";
-    const batch = 18; // to use it properly, we will use static keyword with const, like: static const batch = 18;
+    static const batch = 18; // using const without the word static wont work because const can't be used within a class.
   }
-    
-}
