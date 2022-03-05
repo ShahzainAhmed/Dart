@@ -12,6 +12,7 @@
 * Functions
 * Short Hand (Fat Arrow =>) 
 * Optional Parameters in Functions (Positional, Named, Default)
+* Exception Handling
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -536,3 +537,62 @@ Height is 5
 The volume is: 20
  */
  ```
+
+## Exception Handling
+## Case 1: When you know the exception to be thrown, use ON clause
+**Example:**
+```
+void main() {
+  try {
+    print(16 ~/ 0);
+  } on IntegerDivisionByZeroException {
+    print("Cannot be divided by zero");
+  }
+}
+Output: 
+Cannot be divided by zero
+```
+## Case 2: When you don't know the exception to be thrown, use CATCH clause 
+**Example:**
+```
+void main() {
+  try {
+    print(16 ~/ 0);
+  } catch (e) {
+    print("Exception thrown is: $e");
+  }
+}
+Output:
+Exception thrown is: IntegerDivisionByZeroException
+```
+## Case 3: Using STACK TRACE to know the events occured before exception was thrown
+**Example:**
+```
+void main() {
+  try {
+    print(16 ~/ 0);
+  } catch (e, s) {
+    // print("Exception thrown is: $e");
+    print("Events occured before the exception thrown are: $s");
+  }
+}
+Output:
+```
+![image](https://user-images.githubusercontent.com/59369881/156895478-f226a3aa-c78a-4475-be6c-12fea7269e9f.png)
+
+## Case 4: Whether there is an Exception or not, FINALLY clause is always executed
+**Example:**
+```
+void main() {
+  try {
+    print(16 ~/ 0);
+  } catch (e) {
+    print("Exception thrown is: $e");
+  } finally {
+    print("I am finally clause, which will always be executed");
+  }
+}
+Output: 
+Exception thrown is: IntegerDivisionByZeroException
+I am finally clause, which will always be executed
+```
