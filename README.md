@@ -439,3 +439,14 @@ void main() {
 void sum(int num1, int num2) => print("The sum of $num1 and $num2 is: ${num1+num2}");
 ```
 
+### Example 2:
+```
+void main() {
+    int perimeter = findPerimeter(86,10);
+  print ("Perimeter is $perimeter");
+}
+
+int findPerimeter(int length, int breadth) => 2 * (length + breadth);
+// Output: 
+Perimeter is 192
+```
