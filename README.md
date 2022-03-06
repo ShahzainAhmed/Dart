@@ -14,6 +14,7 @@
 * Optional Parameters in Functions (Positional, Named, Default)
 * Exception Handling
 * Custom Exception
+* Objects
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -624,3 +625,7 @@ void withDraw(var amount) {
 Output: 
 Failed to Withdraw
 ```
+## Objects
+**The state of an object is stored in fields (variables), while methods (functions) represent the behaviour.**  
+**An object is created from a template known as class.**
+
