@@ -625,7 +625,7 @@ void withDraw(var amount) {
 Output: 
 Failed to Withdraw
 ```
-## Objects
+## Objects and Classes
 **The state of an object is stored in fields (variables), while methods (functions) represent the behaviour.**  
 **An object is created from a template known as class. Object represents a real world entity.**
 ```
@@ -675,3 +675,4 @@ Cultus is running
 Brakes has been applied
 */
 ```
+## Constructors
