@@ -677,7 +677,7 @@ Brakes has been applied
 */
 ```
 ## Constructors
-### Default constructors (no parameters)
+### 1) Default constructors (no parameters)
 ```
 // @dart = 2.9
 // Constructors - 7th March 2022
@@ -731,7 +731,7 @@ Civic is running
 Brakes has been applied */
 ```
 
-### Parameterized constructors (can pass parameters)
+### 2) Parameterized constructors (can pass parameters)
 ```
 // @dart=2.9
 // typing the above to disable null safety
@@ -791,7 +791,7 @@ Brakes has been applied
 */
 ```
 
-### Named constructors (can make as many as you like)
+### 3) Named constructors (can make as many as you like)
 ```
 // @dart=2.9
 // typing the above to disable null safety
