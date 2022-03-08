@@ -896,6 +896,6 @@ class Student {
 }
 ```
 **Can write custom setter and getter in short hand form using fat arrow ( => )**  
-**Setter:** `void set setAge (int age) => _age = age;` 
+**Setter:** `void set setAge (int age) => _age = age;`   
 **Getter:** `int get getAge => _age;` 
 
