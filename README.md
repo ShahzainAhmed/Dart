@@ -17,7 +17,7 @@
 * Objects and Classes
 * Constructors (Default, Parameterized, Named)
 * Getter, Setter, and Private Instance variable
-* Inheritance
+* Inheritance and its types
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -906,7 +906,7 @@ class Student {
 - Child Class: A class which inherits properties from other class is called the child class. Also known as the derived class or subclass. 
 
 ### Types of Inheritance
-- Single Inheritance
+- Single Inheritance: A class is allowed to inherit from only one class i.e. one subclass is inherited by one base class only.
 - Multiple Inheritance (Dart doesn't support multiple inheritance)
-- Mulitlevel Inheritance
-- Heirarchical Inheritance
+- Mulitlevel Inheritance: A subclass is inherited by another subclass or creates the chaining of inheritance.
+- Heirarchical Inheritance: Two or more classes inherit a single class. 
