@@ -16,6 +16,7 @@
 * Custom Exception
 * Objects and Classes
 * Constructors (Default, Parameterized, Named)
+* Getter, Setter, and Private Instance variable
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
