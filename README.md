@@ -866,5 +866,36 @@ This is my Second Custom Constructor
 Corolla
 Super White*/
 ```
+## Getter and Setter
+**Getter and setter methods are the class methods used to manipulate the data of the class fields.**  
+**Getter is used to read or get the data of the class field whereas setter is used to set the data of the class field to some variable.**
+```
+void main() {
+  Student student = Student(); // object
+  student.name = "Shahzain Ahmed"; // default setter to set the value
+  print(student.name); // default getter to get the value
+  student.setAge = 22;
+  print(student.getAge);
+}
 
+class Student {
+  String name; // instance variable
+  int _age; // private to its own library (private variable always written with underscore in dart)
+
+// Custom Setter and Getter
+
+  void set setAge(int age) {
+    // setter always return type = void, 
+    _age = age;
+  }
+  
+  int get getAge {
+    // no parenthesis in getter
+    return _age;
+  }
+}
+```
+**Can write custom setter and getter in short hand form using fat arrow ( => )**  
+**Setter:** `void set setAge (int age) => _age = age;` 
+**Getter:** `int get getAge => _age;` 
 
