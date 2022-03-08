@@ -18,6 +18,7 @@
 * Constructors (Default, Parameterized, Named)
 * Getter, Setter, and Private Instance variable
 * Inheritance and its types
+* Method Overriding
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
