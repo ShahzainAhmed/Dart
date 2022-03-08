@@ -16,7 +16,7 @@
 * Custom Exception
 * Objects and Classes
 * Constructors (Default, Parameterized, Named)
-* Getter, Setter, and Private Instance variable
+* Getter, Setter, and Private Instance Variable
 * Inheritance and its types
 * Method Overriding
 
