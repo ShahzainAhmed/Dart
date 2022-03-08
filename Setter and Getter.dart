@@ -33,3 +33,7 @@ class Student {
 // int get getAge => _age;
 
 }
+
+// Output: 
+// Shahzain Ahmed
+// 22
