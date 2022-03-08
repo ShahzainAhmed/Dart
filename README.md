@@ -17,6 +17,7 @@
 * Objects and Classes
 * Constructors (Default, Parameterized, Named)
 * Getter, Setter, and Private Instance variable
+* Inheritance
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -899,3 +900,13 @@ class Student {
 **Setter:** `void set setAge (int age) => _age = age;`   
 **Getter:** `int get getAge => _age;` 
 
+## Inheritance
+**Dart inheritance is defined as the process of deriving the properties and characteristics of another class. It provides the ability to create a new class from an existing class. It is the most essential concept of the oops(Object-Oriented programming approach). We can reuse all the behaviour and characteristics of the previous class in the new class.**
+- Parent Class: A class which is inherited by the other class is called superclass or parent class. Also known as base class.
+- Child Class: A class which inherits properties from other class is called the child class. Also known as the derived class or subclass. 
+
+### Types of Inheritance
+- Single Inheritance
+- Multiple Inheritance (Dart doesn't support multiple inheritance)
+- Mulitlevel Inheritance
+- Heirarchical Inheritance
