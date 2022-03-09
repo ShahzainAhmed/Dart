@@ -19,7 +19,7 @@
 * Getter, Setter, and Private Instance Variable
 * Inheritance and its types
 * Method Overriding
-* Constructors in Inheritance
+* Inheritance with Constructors
 
 ## final and const Keywords
 If you never want to change a value, then use final and const keywords.
@@ -1045,3 +1045,4 @@ class Student extends Person {
   }
 }
 ```
+### Inheritance with Parameterized Constructor
