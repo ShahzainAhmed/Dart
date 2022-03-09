@@ -1016,3 +1016,32 @@ Animal is eating!
 Dog is eating!
 Black */
 ```
+## Constructors in Inheritance
+### Inheritance with Default Constructor
+```
+// @dart=2.9
+// typing the above to disable null safety
+// Inheritance with Default Constructors (9th March, 2022)
+
+void main() {
+  var std1 = Student(); // object
+}
+
+class Person {
+  String name;
+
+  Person() {
+    // constructor
+    print("Person Class Constructor");
+  }
+}
+
+class Student extends Person {
+  int id;
+
+  Student() : super() {
+    //constructor
+    print("Student Class Constructor");
+  }
+}
+```
