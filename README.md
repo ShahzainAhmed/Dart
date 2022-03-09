@@ -681,6 +681,7 @@ Brakes has been applied
 */
 ```
 ## Constructors
+**It a special method of a class or structure in object-oriented programming that initializes a newly created object of that type. Whenever an object is created, the constructor is called automatically.**
 ### 1) Default constructors (no parameters)
 ```
 // @dart = 2.9
